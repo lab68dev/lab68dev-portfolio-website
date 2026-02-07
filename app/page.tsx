@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <Projects />
       <Contact />
-      <footer className="py-8 px-6 border-t border-white/10 flex justify-between items-center text-[10px] md:text-xs">
+      <footer className="py-8 px-6 border-t border-border flex justify-between items-center text-[10px] md:text-xs font-mono uppercase tracking-widest text-muted-foreground">
         <p>© 2025 LAB68DEV</p>
         <p>BUILT BY LAB68DEV DEVELOPERS</p>
       </footer>
