@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
-import { GeminiDiscuss } from "./GeminiDiscuss"
+
 import projectsData from "../data/projects.json"
 
 export function Projects() {
@@ -56,7 +56,15 @@ export function Projects() {
               </div>
 
               <div className="flex gap-4 items-center mt-auto">
-                 <GeminiDiscuss title={project.title} context={project.description} />
+                 <a
+                  href={project.liveDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/btn flex items-center gap-2 text-xs font-bold uppercase tracking-widest border border-primary text-primary px-6 py-2 hover:bg-primary hover:text-black transition-all"
+                >
+                  <span>Live Demo</span>
+                  <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:-translate-y-1 group-hover/btn:translate-x-1" />
+                </a>
                  
                  <a
                   href={project.link}
