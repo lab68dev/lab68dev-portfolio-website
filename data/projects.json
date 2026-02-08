@@ -9,37 +9,9 @@
             "Tailwind",
             "Supabase"
         ],
-        "image": "/lab68devplatform.png",
+        "image": "/lab68-platform-bg.svg",
         "link": "https://github.com/lab68dev/lab68dev-platform",
-        "liveDemo": "https://lab68.dev"
-    },
-    {
-        "title": "LAB68 POMODORO",
-        "description": "Focus timer with cyberpunk aesthetics.",
-        "category": "PRODUCTIVITY",
-        "year": "2025",
-        "techStack": [
-            "React",
-            "Vite",
-            "Zustand"
-        ],
-        "image": "/lab68devpomodoro.png",
-        "link": "https://github.com/lab68dev/lab68-pomodoro",
-        "liveDemo": "#"
-    },
-    {
-        "title": "EVENT HUB",
-        "description": "Community event management system.",
-        "category": "COMMUNITY",
-        "year": "2025",
-        "techStack": [
-            "Next.js",
-            "Prisma",
-            "PostgreSQL"
-        ],
-        "image": "/event-hub.jpg",
-        "link": "https://github.com/lab68dev/lab68dev-event-hub",
-        "liveDemo": "#"
+        "liveDemo": "https://lab68devplatform.vercel.app/"
     },
     {
         "title": "VIDEO RESIZER",
@@ -50,8 +22,8 @@
             "FFmpeg.wasm",
             "React"
         ],
-        "image": "/video-resizer.jpg",
+        "image": "/video-resizer-bg.svg",
         "link": "https://github.com/lab68dev/lab68dev-video-resizer-app",
-        "liveDemo": "#"
+        "liveDemo": "https://lab68videoresizer.netlify.app/"
     }
 ]
