@@ -14,11 +14,6 @@ export function Contact() {
               Ship.
             </h2>
           </div>
-          <div className="hidden md:block">
-            <p className="text-xs uppercase tracking-[0.2em] opacity-40">
-              © {new Date().getFullYear()} LAB68DEV STUDIO — ALL RIGHTS RESERVED
-            </p>
-          </div>
         </div>
 
         <div className="md:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-12">
