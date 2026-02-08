@@ -12,7 +12,7 @@ const archivo = Archivo({
 })
 
 export const metadata: Metadata = {
-  title: "lab68dev portfolio",
+  title: "Lab SixtyEight Dev",
   description: "Created with lab68dev Developers Team",
   icons: {
     icon: [
