@@ -1,7 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
 
 :root {
   /* Cyber/Studio Theme - Light Mode (Fallback/Inverted) */
@@ -42,13 +39,15 @@
 
 .dark {
   /* Cyber/Studio Theme - Dark Mode (Default) */
-  --background: oklch(0.10 0 0); /* Almost black */
+  --background: oklch(0.10 0 0);
+  /* Almost black */
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.12 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.10 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.60 0.18 250); /* Blue-ish */
+  --primary: oklch(0.60 0.18 250);
+  /* Blue-ish */
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.15 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -122,6 +121,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground antialiased;
   }
@@ -131,12 +131,13 @@
   .animate-marquee {
     animation: marquee 20s linear infinite;
   }
-  
+
   /* Cyber Utilities */
   .cyber-border {
-    @apply border border-primary/50 shadow-[0_0_10px_rgba(59,130,246,0.3)];
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
   }
-  
+
   .cyber-text-glow {
     text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
   }
@@ -150,6 +151,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -159,4 +161,33 @@
 .text-outline {
   -webkit-text-stroke: 1px currentColor;
   color: transparent;
+}
+
+/* Cyber Grid Animation */
+.perspective-grid {
+  transform: perspective(100vh) rotateX(60deg);
+  transform-style: preserve-3d;
+}
+
+.animate-grid-flow {
+  animation: grid-flow 20s linear infinite;
+}
+
+@keyframes grid-flow {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 4rem;
+    /* Matches bg size */
+  }
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--primary);
+  opacity: 0;
 }
