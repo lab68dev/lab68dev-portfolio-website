@@ -29,7 +29,7 @@ export function About() {
             radical approach to visual identity. No templates. No shortcuts. Just pure, intentional craft.
           </p>
           <div className="grid grid-cols-2 gap-4 mt-8">
-            {["Next.js", "TypeScript", "WebGL", "Framer Motion", "Tailwind", "Node.js"].map((skill) => (
+            {["Next.js", "TypeScript", "WebGL", "Framer Motion", "Tailwind", "Node.js", "Java / Springboot", "Docker", "Github Actions", "Supabase", "Neon Database", "React", "Microservices",].map((skill) => (
               <div key={skill} className="border-b border-black/10 py-2 text-xs font-bold uppercase">
                 {skill}
               </div>
