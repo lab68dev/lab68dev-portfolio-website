@@ -1,0 +1,33 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#052e16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad2)" />
+  
+  <!-- Digital Frames -->
+  <g stroke="#22c55e" stroke-width="2" fill="none" filter="url(#glow)">
+    <rect x="250" y="150" width="300" height="150" rx="4" opacity="0.8" />
+    <path d="M 230 130 L 270 130 M 230 130 L 230 170" stroke-width="3" />
+    <path d="M 570 130 L 530 130 M 570 130 L 570 170" stroke-width="3" />
+    <path d="M 230 320 L 270 320 M 230 320 L 230 280" stroke-width="3" />
+    <path d="M 570 320 L 530 320 M 570 320 L 570 280" stroke-width="3" />
+  </g>
+  
+  <!-- Scanlines -->
+  <path d="M 0 0 L 800 0" stroke="#22c55e" stroke-width="2" opacity="0.1">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 450" dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <text x="400" y="225" font-family="monospace" font-size="24" fill="#22c55e" text-anchor="middle" font-weight="bold" opacity="0.9" filter="url(#glow)">RESIZER</text>
+  <text x="400" y="255" font-family="monospace" font-size="12" fill="#86efac" text-anchor="middle" letter-spacing="4">PROCESSING...</text>
+</svg>
