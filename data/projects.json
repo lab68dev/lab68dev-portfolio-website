@@ -28,13 +28,12 @@
     },
     {
         "title": "CV BUILDER",
-        "description": "Professional CV builder and resume generator.",
+        "description": "Browser-based CV creation and export tool.",
         "category": "UTILITY",
         "year": "2026",
         "techStack": [
             "Next.js",
-            "React",
-            "TypeScript"
+            "Tailwind"
         ],
         "image": "/cv-builder-bg.svg",
         "link": "https://github.com/lab68dev/lab68cvbuilder",
