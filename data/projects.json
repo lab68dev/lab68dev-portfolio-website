@@ -25,5 +25,19 @@
         "image": "/video-resizer-bg.svg",
         "link": "https://github.com/lab68dev/lab68dev-video-resizer-app",
         "liveDemo": "https://lab68videoresizer.netlify.app/"
+    },
+    {
+        "title": "CV BUILDER",
+        "description": "Professional CV builder and resume generator.",
+        "category": "UTILITY",
+        "year": "2026",
+        "techStack": [
+            "Next.js",
+            "React",
+            "TypeScript"
+        ],
+        "image": "/cv-builder-bg.svg",
+        "link": "https://github.com/lab68dev/lab68cvbuilder",
+        "liveDemo": "https://lab68cvbuilder.vercel.app/"
     }
 ]
