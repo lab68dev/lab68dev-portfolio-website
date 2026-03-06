@@ -29,6 +29,13 @@ const PROJECTS = [
     image: "/video-resizer.jpg",
     link: "https://github.com/lab68dev/lab68dev-video-resizer-app",
   },
+  {
+    title: "LAB68 CV BUILDER",
+    category: "PRODUCTIVITY",
+    year: "2026",
+    image: "/Screenshot 2026-03-04 200150.png",
+    link: "https://github.com/lab68dev/lab68dev-cv-builder",
+  },
 ]
 
 export function Projects() {
@@ -36,7 +43,7 @@ export function Projects() {
     <section id="work" className="py-24 px-6 md:px-10 border-t border-white/10">
       <div className="flex justify-between items-end mb-16">
         <h2 className="text-4xl md:text-7xl font-bold tracking-tighter uppercase italic">Selected Works</h2>
-        <span className="text-xs text-muted-foreground">(04)</span>
+        <span className="text-xs text-muted-foreground">(05)</span>
       </div>
       <div className="grid gap-24">
         {PROJECTS.map((project, i) => (
