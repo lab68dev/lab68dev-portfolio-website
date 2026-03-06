@@ -12,24 +12,24 @@ const archivo = Archivo({
 })
 
 export const metadata: Metadata = {
-  title: "lab68dev portfolio",
+  title: "Lab SixtyEight Dev",
   description: "Created with lab68dev Developers Team",
   icons: {
     icon: [
       {
-        url: "/lab68dev-logo.png",
+        url: "/lab68dev_logo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/lab68dev-logo.png",
+        url: "/lab68dev_logo.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/lab68dev_logo.png",
+        type: "image/png",
       },
     ],
-    apple: "/lab68dev-logo.png",
+    apple: "/lab68dev_logo.png",
   },
 }
 
