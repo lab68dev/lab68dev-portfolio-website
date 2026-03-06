@@ -1,13 +1,17 @@
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
+import { Reveal } from "./reveal"
 
-const PROJECTS = [
+const projectsData = [
   {
     title: "LAB68 PLATFORM",
     category: "ECOSYSTEM",
     year: "2025",
     image: "/lab68devplatform.png",
     link: "https://github.com/lab68dev/lab68dev-platform",
+    liveDemo: "https://github.com/lab68dev/lab68dev-platform",
+    description: "A unified ecosystem platform powering the LAB68 suite of developer tools and services.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     title: "LAB68 POMODORO",
@@ -15,6 +19,9 @@ const PROJECTS = [
     year: "2025",
     image: "/lab68devpomodoro.png",
     link: "https://github.com/lab68dev/lab68-pomodoro",
+    liveDemo: "https://github.com/lab68dev/lab68-pomodoro",
+    description: "A minimalist Pomodoro timer app designed to boost focus and productivity.",
+    techStack: ["React", "TypeScript", "Tailwind CSS"],
   },
   {
     title: "EVENT HUB",
@@ -22,6 +29,9 @@ const PROJECTS = [
     year: "2025",
     image: "/event-hub.jpg",
     link: "https://github.com/lab68dev/lab68dev-event-hub",
+    liveDemo: "https://github.com/lab68dev/lab68dev-event-hub",
+    description: "A community-driven event management platform to discover and host developer events.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     title: "VIDEO RESIZER",
@@ -29,6 +39,19 @@ const PROJECTS = [
     year: "2025",
     image: "/video-resizer.jpg",
     link: "https://github.com/lab68dev/lab68dev-video-resizer-app",
+    liveDemo: "https://github.com/lab68dev/lab68dev-video-resizer-app",
+    description: "A fast, browser-based video resizing utility with no upload required.",
+    techStack: ["Electron", "TypeScript", "FFmpeg"],
+  },
+  {
+    title: "LAB68 CV BUILDER",
+    category: "PRODUCTIVITY",
+    year: "2026",
+    image: "/Screenshot 2026-03-04 200150.png",
+    link: "https://github.com/lab68dev/lab68dev-cv-builder",
+    liveDemo: "https://github.com/lab68dev/lab68dev-cv-builder",
+    description: "A modern CV builder that helps developers craft standout resumes with ease.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
 ]
 
@@ -37,7 +60,7 @@ export function Projects() {
     <section id="work" className="py-24 px-6 md:px-10 border-t border-white/10">
       <div className="flex justify-between items-end mb-16">
         <h2 className="text-4xl md:text-7xl font-bold tracking-tighter uppercase italic">Selected Works</h2>
-        <span className="text-xs text-muted-foreground">(04)</span>
+        <span className="text-xs text-muted-foreground">(05)</span>
       </div>
       
       <div className="grid gap-32">
