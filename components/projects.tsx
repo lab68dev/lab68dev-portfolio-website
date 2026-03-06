@@ -47,7 +47,7 @@ const projectsData = [
     title: "LAB68 CV BUILDER",
     category: "PRODUCTIVITY",
     year: "2026",
-    image: "/Screenshot 2026-03-04 200150.png",
+    image: "/Screenshot 2026-03-06 145846.png",
     link: "https://github.com/lab68dev/lab68dev-cv-builder",
     liveDemo: "https://github.com/lab68dev/lab68dev-cv-builder",
     description: "A modern CV builder that helps developers craft standout resumes with ease.",
