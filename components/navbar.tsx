@@ -15,7 +15,7 @@ export function Navbar() {
         </div>
         <span className="text-xl md:text-2xl font-bold tracking-tighter leading-none">LAB68DEV</span>
       </Link>
-      <div className="flex gap-8 text-[10px] md:text-xs font-medium tracking-widest uppercase">
+      <div className="flex items-center gap-6 md:gap-8 text-[10px] md:text-xs font-medium tracking-widest uppercase">
         <Link href="#work" className="hover:opacity-50 transition-opacity">
           Work
         </Link>
@@ -24,6 +24,12 @@ export function Navbar() {
         </Link>
         <Link href="#contact" className="hover:opacity-50 transition-opacity">
           Contact
+        </Link>
+        <Link
+          href="#sponsor"
+          className="flex items-center gap-1.5 border border-current px-3 py-1 hover:opacity-60 transition-opacity"
+        >
+          ♥ Sponsor
         </Link>
       </div>
     </nav>
