@@ -101,6 +101,25 @@ export function Hero() {
         <span className="text-primary mr-2">//</span>THINK. CODE. TEST. SHIP.
       </div>
 
+      {/* Sponsor badge — top right */}
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, delay: 1.6, ease: [0.16, 1, 0.3, 1] }}
+        className="absolute top-[15%] right-[5%] md:right-[10%] hidden md:block z-30"
+      >
+        <a
+          href="#sponsor"
+          className="group flex items-center gap-2 border-r-2 border-primary pr-4 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground hover:text-primary transition-colors duration-300"
+        >
+          <span className="relative flex h-1.5 w-1.5 shrink-0">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
+            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-primary" />
+          </span>
+          Sponsor Us
+        </a>
+      </motion.div>
+
       <div className="absolute bottom-10 left-6 md:left-10 text-[10px] md:text-xs font-mono flex flex-col gap-1 uppercase tracking-widest text-muted-foreground/50">
         <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-ping" />
