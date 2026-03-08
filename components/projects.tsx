@@ -13,7 +13,7 @@ const projectsData = [
     year: "2025",
     image: "/lab68devplatform.png",
     link: "https://github.com/lab68dev/lab68dev-platform",
-    liveDemo: "https://github.com/lab68dev/lab68dev-platform",
+    liveDemo: "https://lab68devplatform.vercel.app/",
     description:
       "A unified ecosystem platform powering the LAB68 suite of developer tools and services — built for speed, scale, and developer experience.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -25,7 +25,7 @@ const projectsData = [
     year: "2026",
     image: "/Screenshot 2026-03-06 145846.png",
     link: "https://github.com/lab68dev/lab68dev-cv-builder",
-    liveDemo: "https://github.com/lab68dev/lab68dev-cv-builder",
+    liveDemo: "https://lab68cvbuilder.vercel.app/",
     description:
       "A modern CV builder that helps developers craft standout, ATS-ready resumes with a clean editor and real-time preview.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
