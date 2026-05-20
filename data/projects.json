@@ -1,30 +1,17 @@
 [
     {
-        "title": "LAB68 PLATFORM",
-        "description": "An all-in-one ecosystem for developers.",
-        "category": "ECOSYSTEM",
+        "title": "LAB68DEV PLATFORM",
+        "description": "Open developer workspace for projects.",
+        "category": "PLATFORM",
         "year": "2025",
         "techStack": [
             "Next.js",
             "Tailwind",
             "Supabase"
         ],
-        "image": "/lab68-platform-bg.svg",
+        "image": "/lab68studio.png",
         "link": "https://github.com/lab68dev/lab68dev-platform",
         "liveDemo": "https://lab68devplatform.vercel.app/"
-    },
-    {
-        "title": "VIDEO RESIZER",
-        "description": "Browser-based video manipulation tool.",
-        "category": "UTILITY",
-        "year": "2025",
-        "techStack": [
-            "FFmpeg.wasm",
-            "React"
-        ],
-        "image": "/video-resizer-bg.svg",
-        "link": "https://github.com/lab68dev/lab68dev-video-resizer-app",
-        "liveDemo": "https://lab68videoresizer.netlify.app/"
     },
     {
         "title": "CV BUILDER",
